@@ -1,6 +1,12 @@
-Chipped Rock and Volcanic Text
+### Volcanic Rock and Chipped Rock
 
+These two text styles are extremely similar internally due to the fact that they share most of the same GEGL syntax, so they were both combined into one plugin; as opposed to making two plugins. 
+Obviously they look very different, but under the hood but  GEGL is doing the same graphical text theory and applying a "dark lava coat" on the volcanic text
+and not the chipped rock. For those classic Gimp fans "Chipped Rock" is directly inspired by the classic alpha to logo "chip away".
 
+![image](https://github.com/LinuxBeaver/ChippedRock_VolcanicText_Gimp_Plugin/assets/78667207/63a439b4-e8a2-4d60-acc4-cfd4787ac39c)
+
+![image](https://github.com/LinuxBeaver/ChippedRock_VolcanicText_Gimp_Plugin/assets/78667207/eb680ab3-6bc2-4763-b82e-1329d062d4f3)
 
 ## Directory to put Binaries (They do NOT go in the normal plugins folder)
 
@@ -58,6 +64,12 @@ Then build the same way you would on Linux:
 meson setup --buildtype=release build
 ninja -C build
 ```
+
+## More Previews of this based plugin
+![image](https://github.com/LinuxBeaver/ChippedRock_VolcanicText_Gimp_Plugin/assets/78667207/5975cfb4-bd85-434c-b1da-9d4ce6dc4cb4)
+
+![image](https://github.com/LinuxBeaver/ChippedRock_VolcanicText_Gimp_Plugin/assets/78667207/415877df-8be6-440e-90bf-1d195f465669)
+
 
 
 
