@@ -70,6 +70,10 @@ ninja -C build
 
 ![image](https://github.com/LinuxBeaver/ChippedRock_VolcanicText_Gimp_Plugin/assets/78667207/415877df-8be6-440e-90bf-1d195f465669)
 
+## note this plugin ships with many other plugins of mine as dependencies.
+
+Most notically Ocean's Surface which is a background wallpaper design plugin
+https://github.com/LinuxBeaver/Ocean-s-Surface---Gimp-background-design-plugin/blob/main/README.md
 
 
 
