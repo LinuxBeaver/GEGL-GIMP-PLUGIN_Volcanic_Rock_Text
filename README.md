@@ -73,7 +73,7 @@ ninja -C build
 ## note this plugin ships with many other plugins of mine as dependencies.
 
 Most notically Ocean's Surface which is a background wallpaper design plugin
-https://github.com/LinuxBeaver/Ocean-s-Surface---Gimp-background-design-plugin/blob/main/README.md
+https://github.com/LinuxBeaver/Ocean-s-Surface---Gimp-background-design-plugin/
 
 
 
