@@ -494,7 +494,7 @@ GeglOperationMetaClass *operation_meta_class = GEGL_OPERATION_META_CLASS (klass)
     "description", _("This filter has 3 modes (Chipped Rock, Volcanic Rock, and Lava Rock). Classic Gimp fans should know that 'chipped rock' is inspired by the script fu 'chip away'. "
                      ""),
     "gimp:menu-path", "<Image>/Filters/Text Styling",
-    "gimp:menu-label", _("Chipped Rock and Volcanic Rock"),
+    "gimp:menu-label", _("Chipped Rock and Volcanic Rock..."),
     NULL);
 }
 
