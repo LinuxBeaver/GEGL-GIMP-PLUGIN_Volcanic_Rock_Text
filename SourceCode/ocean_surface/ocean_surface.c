@@ -14,9 +14,9 @@
  * License along with GEGL; if not, see <https://www.gnu.org/licenses/>.
  *
  * Credit to Øyvind Kolås (pippin) for major GEGL contributions
- * 2023 Beaver, Ocean's Surface
+ * 2023 Beaver, Oceanꞌs Surface
 
-Test this filter without installing by pasting this syntax into Gimp's GEGL graph filter.
+Test this filter without installing by pasting this syntax into Gimpꞌs GEGL graph filter.
 
 id=1  
 over   aux=[ color value=#c1c1c1   ]
@@ -37,14 +37,14 @@ bloom strength=30
 
 
 property_double (xnoise, _("Solid Noise Horizontal"), 4.0)
-   description (_("Solid Noise's horizontal size setting for the water"))
+   description (_("Solid Noiseꞌs horizontal size setting for the water"))
    value_range (1.0, 9.0)
    ui_range    (1.0, 9.0)
    ui_gamma    (3.0)
     ui_meta     ("axis", "x")
 
 property_double (ynoise, _("Solid Noise Vertical"), 4.0)
-   description (_("Solid Noise's verticial size setting for the water"))
+   description (_("Solid Noiseꞌs verticial size setting for the water"))
    value_range (1.0, 9.0)
    ui_range    (1.0, 9.0)
    ui_gamma    (3.0)
@@ -53,14 +53,14 @@ property_double (ynoise, _("Solid Noise Vertical"), 4.0)
 property_seed (seed, _("Random seed"), rand)
 
 property_double (glow, _("Glow effect on water"), 40.0)
-   description (_("Glow effect on the water using the 'bloom filter'"))
+   description (_("Glow effect on the water using the ꞌbloom filterꞌ"))
    value_range (0.0, 60.0)
    ui_range    (10.0,60.0)
    ui_gamma    (3.0)
 
 
 property_color  (color, _("Color Overlay"), "#58bbf1")
-    description (_("Color of 'Ocean Surface'. Color is blended with an internal linear burn."))
+    description (_("Color of ꞌOcean Surfaceꞌ. Color is blended with an internal linear burn."))
 
 property_double (coloropacity, _("Opacity of Color"), 1.00)
    description (_("Opacity of the color overlay"))

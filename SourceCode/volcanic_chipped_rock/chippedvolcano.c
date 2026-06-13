@@ -118,8 +118,8 @@ property_enum (rocktype, _("Rock Type"),
   description (_("Choose between chipped rock, volcanic rock and volcanic rock with lava."))
 
 
-property_color  (colorrock, _("Rock's Color"), "#ffb247")
-  description   (_("The rock's color"))
+property_color  (colorrock, _("Rockꞌs Color"), "#ffb247")
+  description   (_("The rockꞌs color"))
 ui_meta ("visible", "!rocktype {volcanicnolava, volcaniclava}" )
 
 
@@ -491,7 +491,7 @@ GeglOperationMetaClass *operation_meta_class = GEGL_OPERATION_META_CLASS (klass)
     "name",        "lb:volcanicrock",
     "title",       _("Volcanic Rock / Chipped Rock"),
     "reference-hash", "fddcfuturefunkvaporpop",
-    "description", _("This filter has 3 modes (Chipped Rock, Volcanic Rock, and Lava Rock). Classic Gimp fans should know that 'chipped rock' is inspired by the script fu 'chip away'. "
+    "description", _("This filter has 3 modes (Chipped Rock, Volcanic Rock, and Lava Rock). Classic Gimp fans should know that ꞌchipped rockꞌ is inspired by the script fu ꞌchip awayꞌ. "
                      ""),
     "gimp:menu-path", "<Image>/Filters/Text Styling",
     "gimp:menu-label", _("Chipped Rock and Volcanic Rock..."),
